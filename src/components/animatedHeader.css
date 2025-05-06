@@ -1,0 +1,49 @@
+.slider-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7rem;
+    overflow: hidden;
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: relative;
+  }
+  
+  .sentence {
+    position: absolute;
+    text-align: center;
+    width: 90%;
+  }
+  
+  /* Slide-in animation from bottom */
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Slide-out animation to top */
+  @keyframes slideOut {
+    from {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    to {
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+  }
+  
+  .slide-in {
+    animation: slideIn 1s ease forwards;
+  }
+  
+  .slide-out {
+    animation: slideOut 1s ease forwards;
+  }
+  
