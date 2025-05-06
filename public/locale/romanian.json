@@ -1,0 +1,101 @@
+{
+  "index": "8",
+  "language": "Română",
+  "2-page": {
+    "title": "Cum vă pot ajuta astăzi?",
+    "upload": "Captează o imagine sau încarcă un document.",
+    "ask": "Puneți întrebări despre Centrul de ocupare, Kindergeld, Ausländerbehörde, Anmeldung, Arbeits etc. Scrieți-le în bara de căutare.",
+    "search": "caută",
+    "subTitle": "Fă o fotografie la temele tale sau ale copilului tău, încarcă-o și primește explicații în limba ta pentru a te ajuta să finalizezi sarcina",
+    "homework": "Temă pentru acasă",
+    "contracts": "Scrisori oficiale și Contracte",
+    "information": "Informații: Centrul de ocupare, Ausländerbehörde, Kindergeld"
+  },
+  "3-page": {
+    "upload": "Încarcă din nou",
+    "ask": "Pune o întrebare",
+    "translate": "Tradu",
+    "explain": "Explică",
+    "summarize": "Rezumă"
+  },
+  "4-page": {
+    "input": "Pune o întrebare",
+    "share": "Partajează prin"
+  },
+  "5-page": {
+    "agb": ". Domeniu de aplicare 1.1 Acești Termeni și Condiții Generale (AGB) se aplică utilizării aplicației web „[Numele aplicației]” (denumită în continuare „Aplicație Web”), furnizată de [Companie] (denumită în continuare „Furnizor”). 1.2 Furnizorul își rezervă dreptul de a modifica acești Termeni și Condiții Generale în orice moment. Utilizatorii vor fi informați în timp util despre modificările importante. Continuarea utilizării aplicației web după intrarea în vigoare a modificărilor constituie acceptarea noilor condiții de către utilizatori."
+  },
+  "prompts": {
+    "translate": "Tradu-l în română și, dacă nu există text de tradus, răspunde cu 0.",
+    "explain": "Explică în română",
+    "summarize": "Rezumă în română"
+  },
+  "waitText": "⌛ Se procesează cererea dvs.... Vă rugăm să așteptați. ⌛",
+  "noText": "Imaginea este neclară și extragerea textului a eșuat. Vă rugăm să încărcați o imagine mai clară.",
+  "alertMessageEmpty": "Vă rugăm să scrieți ceva în bara de căutare.",
+  "prompt": "Acționați ca un traducător profesionist pentru mai multe limbi. Veți primi o imagine care conține text. Sarcinile dvs. sunt: extrageți tot textul din imagine cu acuratețe. Traduceți textul din limba originală în română, păstrând structura și aspectul textului original cât mai precis posibil. Răspundeți doar cu textul tradus în română. Dacă traducerea eșuează inițial, traduceți mai întâi textul din limba originală în română, apoi traduceți textul românesc în română. Asigurați-vă că rezultatul final este clar, precis și păstrează formatul original. Nu includeți comentarii suplimentare sau informații necerute. Dacă nu ați reușit să extrageți textele, returnați doar un singur număr '0' în english.",
+  "feedbackForm": {
+    "title": "Formular de feedback pentru aplicație",
+    "steps": [
+      {
+        "question": "Cât de des utilizați această aplicație?",
+        "options": [
+          "În fiecare zi",
+          "De câteva ori pe săptămână",
+          "Ocazional",
+          "Prima dată"
+        ]
+      },
+      {
+        "question": "Ce considerați cel mai util? (Selectați toate cele care se aplică)",
+        "options": [
+          "Traducere instantanee a imaginilor",
+          "Economisește timp comparativ cu tastarea",
+          "Traduce semne/documente",
+          "Ajută la comunicarea zilnică",
+          "Altele"
+        ]
+      },
+      {
+        "question": "Ce vă motivează să folosiți aplicația zilnic?",
+        "options": [
+          "Traduceri rapide în deplasare",
+          "Mă ajută să înțeleg texte străine",
+          "Economisește timp la serviciu sau în călătorii",
+          "Altele"
+        ]
+      },
+      {
+        "question": "Ce funcție v-ar încuraja să folosiți aplicația mai des?",
+        "options": [
+          "Traducere în timp real",
+          "Mai multe opțiuni de limbi",
+          "Mod offline",
+          "Traducere vocală",
+          "Altele"
+        ]
+      },
+      {
+        "question": "Pe o scară de la 1 la 10, cât de probabil este să folosiți această aplicație zilnic?",
+        "type": "slider"
+      },
+      {
+        "question": "Aveți sugestii sau comentarii?",
+        "type": "textarea"
+      }
+    ],
+    "next": "Următorul",
+    "previous": "Înapoi",
+    "submit": "Trimite"
+  },
+  "feedbackError": "Vă rugăm să alegeți unul dintre răspunsuri sau să scrieți opinia dumneavoastră și să faceți clic pe următorul",
+  "jobsPage": {
+    "maxResults": "Rezultate maxime",
+    "employer": "Angajator",
+    "placeOfWork": "Locul de muncă",
+    "occupation": "Ocupație",
+    "publishDate": "Data publicării",
+    "readMore": "Citește mai mult",
+    "loadMore": "Încarcă mai multe"
+  }
+}

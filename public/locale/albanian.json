@@ -1,0 +1,96 @@
+{
+  "index": "9",
+  "language": "Albanian",
+  "2-page": {
+    "title": "Si mund t'ju ndihmoj sot?",
+    "upload": "Kap një imazh ose ngarko një dokument.",
+    "ask": "Bëni pyetje rreth Qendrës së Punës, Kindergeld, Ausländerbehörde, Anmeldung, Arbeits etj. Shkruajeni atë në shiritin e kërkimit.",
+    "search": "kërko",
+    "subTitle": "Kap një foto të detyrës së shtëpisë tuaj ose të fëmijës suaj, ngarkoje dhe merr shpjegime në gjuhën tuaj për të ndihmuar në përfundimin e detyrës.",
+    "homework": "Detyrë shtëpie",
+    "contracts": "Letra zyrtare dhe Kontrata",
+    "information": "Informacion: Qendra e Punës, Ausländerbehörde, Kindergeld"
+  },
+  "3-page": {
+    "upload": "Ngarko përsëri",
+    "ask": "Pyet çdo gjë",
+    "translate": "Përkthe",
+    "explain": "Shpjego",
+    "summarize": "Përmbledh"
+  },
+  "4-page": {
+    "input": "Pyet çdo gjë",
+    "share": "Ndajeni përmes"
+  },
+  "5-page": {
+    "agb": ". Fusha e zbatimit 1.1 Këto Kushte të Përdorimit (AGB) vlejnë për përdorimin e Web-App-it „[Emri i Aplikacionit]“ (nga tani e tutje „Web-App“), i cili ofrohet nga [Kompania] (nga tani e tutje „Ofruesi“). 1.2 Ofruesi mban të drejtën për të ndryshuar këto kushte të përdorimit në çdo kohë. Përdoruesit do të informohen për ndryshimet e rëndësishme në kohë. Duke vazhduar përdorimin e Web-App-it pas hyrjes në fuqi të ndryshimeve, përdoruesit pranojnë kushtet e reja."
+  },
+  "prompts": {
+    "translate": "Përktheni këtë në shqip dhe nëse nuk ka tekst për përkthim, përgjigjuni me 0.",
+    "explain": "Shpjego në albanian",
+    "summarize": "Përmbledh në albanian"
+  },
+  "waitText": "⌛ Po përpunoj kërkesën tuaj... Ju lutem prisni. ⌛",
+  "noText": "Imazhi është i paqartë dhe dështoi nxjerrja e tekstit. Ju lutem ngarkoni një imazh më të qartë.",
+  "alertMessageEmpty": "Ju lutem shkruani në shiritin e kërkimit.",
+  "prompt": "Veproni si përkthyes profesionist për shumë gjuhë. Do të merrni një imazh që përmban tekst. Detyrat tuaja janë: Nxirrni të gjithë tekstin nga imazhi me saktësi. Përkthe tekstin nga gjuha origjinale në albanian, duke ruajtur strukturën dhe formën e origjinalit sa më shumë të jetë e mundur. Përgjigjuni vetëm me tekstin e përkthyer në albanian. Nëse përkthimi dështon fillimisht, përkthe tekstin nga gjuha origjinale në albanian, pastaj përkthe tekstin në albanian në albanian. Sigurohuni që produkti final të jetë i qartë, i saktë dhe të ruajë formatimin origjinal. Mos përfshini komente ose informacione të tjera që nuk kërkohen. Nëse dështuam të nxjerrim tekstet, atëherë kthehuni vetëm me një numër ‘0’ në English.",
+  "feedbackForm": {
+    "title": "Formulari i Komenteve të Aplikacionit",
+    "steps": [
+      {
+        "question": "Sa shpesh përdorni këtë aplikacion?",
+        "options": ["Çdo ditë", "Disa herë në javë", "Rrallë", "Herën e parë"]
+      },
+      {
+        "question": "Çfarë e konsideroni më të dobishme? (Zgjidhni të gjitha që vlejnë)",
+        "options": [
+          "Përkthimi i menjëhershëm i imazheve",
+          "Kalon kohë krahasuar me shkrimin",
+          "Përkthimi i shenjave/dokumenteve",
+          "Ndihmon në komunikimin e përditshëm",
+          "Tjetër"
+        ]
+      },
+      {
+        "question": "Çfarë ju motivon të përdorni aplikacionin çdo ditë?",
+        "options": [
+          "Përkthime të shpejta gjatë udhëtimit",
+          "Më ndihmon të kuptoj tekstin e huaj",
+          "Kalon kohë në punë ose gjatë udhëtimit",
+          "Tjetër"
+        ]
+      },
+      {
+        "question": "Cila veçori do t'ju inkurajonte të përdorni më shumë aplikacionin?",
+        "options": [
+          "Përkthim në kohë reale",
+          "Më shumë mundësi gjuhësore",
+          "Modaliteti offline",
+          "Përkthim me zë",
+          "Tjetër"
+        ]
+      },
+      {
+        "question": "Në një shkallë nga 1-10, sa të mundshme janë që të përdorni këtë aplikacion çdo ditë?",
+        "type": "slider"
+      },
+      {
+        "question": "Çfarë sugjerimesh ose komentesh keni?",
+        "type": "textarea"
+      }
+    ],
+    "next": "Tjetër",
+    "previous": "Mbrapa",
+    "submit": "Dërgo"
+  },
+  "feedbackError": "Ju lutemi zgjidhni një nga përgjigjet ose shkruani mendimin tuaj dhe klikoni në vijim",
+  "jobsPage": {
+    "maxResults": "Maksimumi i rezultateve",
+    "employer": "Punëdhënësi",
+    "placeOfWork": "Vendi i punës",
+    "occupation": "Profesioni",
+    "publishDate": "Data e publikimit",
+    "readMore": "Lexo më shumë",
+    "loadMore": "Shfaq më shumë"
+  }
+}

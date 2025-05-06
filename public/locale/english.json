@@ -1,0 +1,101 @@
+{
+  "index": "5",
+  "language": "English",
+  "2-page": {
+    "title": "Application Feature",
+    "upload": "Capture an image or upload a document",
+    "ask": "Ask questions about job centre, Kindergeld, Ausländerbehorde etc. Write it down on the search bar",
+    "search": "search",
+    "subTitle": "Capture a picture of your or your child's homework, upload it, and receive detailed help in your own language to guide you through completing the task",
+    "homework": "Homework",
+    "contracts": "Official Letters",
+    "information": "File"
+  },
+  "3-page": {
+    "upload": "Upload again",
+    "ask": "Ask anything",
+    "translate": "Translate",
+    "explain": "Explain",
+    "summarize": "Summarize"
+  },
+  "4-page": {
+    "input": "Ask anything",
+    "share": "Share it via"
+  },
+  "5-page": {
+    "agb": ". Geltungsbereich 1.1 Diese Allgemeinen Geschäftsbedingungen (AGB) gelten für die Nutzung der Web-App „[Name der App]“ (im Folgenden „Web-App“), die von [Unternehmen] (im Folgenden „Anbieter“) bereitgestellt wird. 1.2 Der Anbieter behält sich das Recht vor, diese AGB jederzeit zu ändern. Die Nutzerinnen werden über wesentliche Änderungen rechtzeitig informiert. Durch die weitere Nutzung der Web-App nach Inkrafttreten der Änderungen stimmen die Nutzerinnen den neuen Bedingungen zu"
+  },
+  "prompts": {
+    "translate": "Translate it in English and if there is no text to translate reply with 0",
+    "explain": "Explain it in English",
+    "summarize": "Summarize it in English"
+  },
+  "waitText": "⌛ Processing your request... Please wait. ⌛",
+  "noText": "The image is blurry and text extraction failed. Please upload a clearer image.",
+  "alertMessageEmpty": "Please write in the search bar.",
+  "prompt": "You are an expert assistant designed to help immigrants and refugees in Germany by analyzing uploaded images and documents, translating them into English, and providing actionable guidance., Your Task:, Use OCR Optical Character Recognition to extract text from the uploaded image or document as accurately as possible. Ensure the maximum effort is made to retrieve all text even if the image quality is low. Attempt to improve image clarity algorithmically e.g. enhancing contrast or removing noise before text extraction., Translate the text from its original language into English preserving the structure and layout of the original text as closely as possible., Analyze the content to provide a document summary actionable steps and critical information based on the documents type., If text extraction fails:, Respond with the number 0 if no text can be extracted after applying the above methods., Processing Instructions:, Document Summary Top Priority:, Identify the document type e.g. residency application employment contract medical report legal form etc., Summarize its purpose and key information in 2–3 sentences., Actionable Guidance:, Provide clear step-by-step instructions based on the documents content. Examples:, If it is a residency application explain how to complete it where to submit it and any deadlines., If it is an employment contract highlight key clauses like salary working hours and notice period., If it is a medical report summarize any diagnoses treatments or next steps., Include culturally and contextually relevant information such as nearby offices or services in Germany., Use bullet points to make the steps clear and easy to follow., Critical Information:, Highlight deadlines contact details or next steps mentioned in the document., Translation:, Provide a clear and accurate translation of the document into English. If multiple languages are detected ensure all are translated., Tone and Clarity:, Use a supportive empathetic tone to make the user feel understood and empowered., Ensure your response is simple and accessible for users unfamiliar with complex terms., Response Structure:, Document Summary:, Summarize the document here, Actionable Steps:, Provide specific steps and advice here, Critical Information:, List important deadlines contacts or additional requirements here, Translated Text in English:, Provide the full translation here, Guidelines for Low-Quality Images:, If the image is blurry apply advanced OCR techniques to enhance text extraction. Focus on recovering as much text as possible using tools or methods such as:, Adjusting brightness or contrast., Performing noise reduction., Cropping irrelevant parts of the image to focus on text-heavy areas., For partial text extraction process and translate whatever content is retrievable., Fallback Response:, If no text can be extracted even after all efforts return a single number 0.",
+  "feedbackForm": {
+    "title": "App Feedback Form",
+    "steps": [
+      {
+        "question": "How often do you use this app?",
+        "options": [
+          "Every day",
+          "A few times a week",
+          "Occasionally",
+          "First time"
+        ]
+      },
+      {
+        "question": "What do you find most helpful? (Select all that apply)",
+        "options": [
+          "Instant image translation",
+          "Saves time compared to typing",
+          "Translates signs/documents",
+          "Helps with daily communication",
+          "Other"
+        ]
+      },
+      {
+        "question": "What motivates you to use the app daily?",
+        "options": [
+          "Quick translations while on the go",
+          "Helps me understand foreign text",
+          "Saves time at work or in travel",
+          "Other"
+        ]
+      },
+      {
+        "question": "What feature would encourage you to use the app more?",
+        "options": [
+          "Real-time translation",
+          "More language options",
+          "Offline mode",
+          "Voice translation",
+          "Other"
+        ]
+      },
+      {
+        "question": "On a scale of 1-10, how likely are you to use this app daily?",
+        "type": "slider"
+      },
+      {
+        "question": "Any suggestions or comments?",
+        "type": "textarea"
+      }
+    ],
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit"
+  },
+  "feedbackError_english": "Please choose one of the answers or write your opinion and click next",
+  "jobsPage": {
+    "maxResults": "Max Results",
+    "employer": "Employer",
+    "placeOfWork": "Place of Work",
+    "occupation": "Occupation",
+    "publishDate": "Publish Date",
+    "readMore": "Read More",
+    "loadMore": "Load More"
+  }
+}

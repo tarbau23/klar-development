@@ -1,0 +1,96 @@
+{
+  "index": "0",
+  "language": "Türkçe",
+  "2-page": {
+    "title": "Bugün size nasıl yardımcı olabilirim?",
+    "upload": "Bir görüntü yakalayın veya bir belge yükleyin.",
+    "ask": "İş Merkezi, Kindergeld, Ausländerbehörde, Anmeldung, Arbeits vb. hakkında sorular sorun. Arama çubuğuna yazın.",
+    "search": "arama",
+    "subTitle": "Ödevinizin ya da çocuğunuzun ödevinin fotoğrafını çekin, yükleyin ve görevi tamamlamanıza yardımcı olacak açıklamaları kendi dilinizde alın.",
+    "homework": "Ödev",
+    "contracts": "Resmi Mektuplar & Sözleşmeler",
+    "information": "Bilgi: İş Merkezi, Ausländerbehörde, Kindergeld"
+  },
+  "3-page": {
+    "upload": "Tekrar yükle",
+    "ask": "Herhangi bir şey sorun",
+    "translate": "Çevir",
+    "explain": "Açıkla",
+    "summarize": "Özetle"
+  },
+  "4-page": {
+    "input": "Herhangi bir şey sorun",
+    "share": "Şu şekilde paylaş"
+  },
+  "5-page": {
+    "agb": ". Geçerlilik alanı 1.1 Bu Genel Şartlar ve Koşullar (AGB), [Uygulama Adı] adlı Web Uygulamasının (bundan böyle “Web Uygulaması” olarak anılacaktır) [Şirket] (bundan böyle “Sağlayıcı” olarak anılacaktır) tarafından kullanımı için geçerlidir. 1.2 Sağlayıcı, bu AGB'yi istediği zaman değiştirme hakkını saklı tutar. Kullanıcılar önemli değişiklikler hakkında zamanında bilgilendirilir. Değişiklikler yürürlüğe girdikten sonra Web Uygulamasını kullanmaya devam ederek, kullanıcılar yeni koşulları kabul etmiş sayılır."
+  },
+  "prompts": {
+    "translate": "Bunu Türkçeye çevirin ve çevrilecek metin yoksa 0 ile cevap verin.",
+    "explain": "İngilizce olarak açıkla",
+    "summarize": "İngilizce olarak özetle"
+  },
+  "waitText": "⌛ İsteğiniz işleniyor... Lütfen bekleyin. ⌛",
+  "noText": "Görüntü bulanık ve metin çıkarma başarısız oldu. Lütfen daha net bir görüntü yükleyin.",
+  "alertMessageEmpty": "Lütfen arama çubuğuna yazın.",
+  "prompt": "İşinizde Almanya'daki göçmenlere ve mültecilere yardımcı olmak için tasarlanmış bir uzman asistansınız. Yüklenen görüntüleri ve belgeleri analiz ederek, onları Turkish'e çevirip, uygulanabilir rehberlik sağlarsınız., Göreviniz:, Optik Karakter Tanıma (OCR) kullanarak, yüklenen görüntü veya belgelerden metni mümkün olduğunca doğru bir şekilde çıkarın. Görüntü kalitesi düşük olsa bile, tüm metni almak için azami çaba gösterin. Metin çıkarılmadan önce görüntü netliğini algoritmik olarak iyileştirmeye çalışın (örneğin kontrast artırma veya gürültü giderme)., Metni, orijinal dilinden Turkish'e çevirin, orijinal metnin yapısını ve düzenini mümkün olduğunca koruyarak., İçeriği analiz edin ve belge türüne göre bir belge özeti, uygulanabilir adımlar ve kritik bilgiler sağlayın., Metin çıkarma başarısız olursa:, Yukarıdaki yöntemler uygulandıktan sonra hiçbir metin çıkarılamazsa, 0 sayısını yanıt olarak verin., İşlem Talimatları:, Belge Özeti (En Yüksek Öncelik):, Belge türünü belirleyin (örneğin, oturum başvurusu, iş sözleşmesi, tıbbi rapor, yasal form vb.)., Amacını ve anahtar bilgilerini 2-3 cümleyle özetleyin., Uygulanabilir Adımlar:, Belgenin içeriğine dayalı olarak açık ve adım adım talimatlar verin. Örnekler:, Eğer bir oturum başvurusu ise, nasıl doldurulacağını, nereye teslim edileceğini ve varsa son tarihleri açıklayın., Eğer bir iş sözleşmesi ise, maaş, çalışma saatleri ve bildirim süresi gibi önemli maddelere dikkat edin., Eğer bir tıbbi rapor ise, tanıları, tedavileri veya bir sonraki adımları özetleyin., Almanya'daki ilgili ofisler veya hizmetler gibi kültürel ve bağlamsal olarak uygun bilgileri ekleyin., Adımları net ve kolayca takip edilebilir hale getirmek için madde işaretleri kullanın., Kritik Bilgiler:, Belgede belirtilen son tarihler, iletişim bilgileri veya bir sonraki adımları vurgulayın., Çeviri:, Belgenin Turkish çevirisini net ve doğru bir şekilde sağlayın. Birden fazla dil tespit edilirse, hepsini çevirin., Ton ve Netlik:, Kullanıcıyı anladığınızı ve desteklediğinizi hissettirecek, empatik bir dil kullanın., Yanıtınızın, karmaşık terimlere aşina olmayan kullanıcılar için basit ve anlaşılır olduğundan emin olun., Yanıt Yapısı:, Belge Özeti:, [Belgeyi burada özetleyin], Uygulanabilir Adımlar:, [Özel adımları ve tavsiyeleri burada sağlayın], Kritik Bilgiler:, [Belgede yer alan önemli son tarihler, iletişim bilgileri veya ek gereksinimleri burada listeleyin], Tukish Çevrilmiş Metin:, [Tam çeviriyi burada sağlayın], Düşük Kaliteli Görüntüler için Talimatlar:, Görüntü bulanık ise, metin çıkarımını geliştirmek için gelişmiş OCR tekniklerini kullanın. Metnin mümkün olduğunca fazla kısmını geri kazanmak için aşağıdaki araçlar veya yöntemler kullanın:, Parlaklık veya kontrastı ayarlama., Gürültü giderme., Görüntünün metin içeren kısımlarına odaklanmak için gereksiz alanları kırpma., Eğer metin kısmi olarak çıkarıldıysa, elde edilen içeriği işleyin ve çevirisini yapın., Yedek Yanıt:, Tüm çabalarınıza rağmen metin çıkarılamazsa, sadece 0 sayısını verin.",
+  "feedbackForm": {
+    "title": "Uygulama Geri Bildirim Formu",
+    "steps": [
+      {
+        "question": "Bu uygulamayı ne sıklıkla kullanıyorsunuz?",
+        "options": ["Her gün", "Haftada birkaç kez", "Ara sıra", "İlk kez"]
+      },
+      {
+        "question": "En faydalı bulduğunuz şey nedir? (Tüm uygun olanları seçin)",
+        "options": [
+          "Anında görüntü çevirisi",
+          "Yazmaya göre zaman kazandırıyor",
+          "Tabelaları/belgeleri çeviriyor",
+          "Günlük iletişimde yardımcı oluyor",
+          "Diğer"
+        ]
+      },
+      {
+        "question": "Bu uygulamayı günlük olarak kullanmaya sizi motive eden nedir?",
+        "options": [
+          "Hareket halindeyken hızlı çeviriler",
+          "Yabancı metni anlamama yardımcı oluyor",
+          "İş veya seyahatte zaman kazandırıyor",
+          "Diğer"
+        ]
+      },
+      {
+        "question": "Uygulamayı daha fazla kullanmanızı teşvik edecek bir özellik nedir?",
+        "options": [
+          "Gerçek zamanlı çeviri",
+          "Daha fazla dil seçeneği",
+          "Çevrimdışı mod",
+          "Sesli çeviri",
+          "Diğer"
+        ]
+      },
+      {
+        "question": "1-10 arasında bir ölçekte, bu uygulamayı günlük olarak kullanma olasılığınız nedir?",
+        "type": "slider"
+      },
+      {
+        "question": "Herhangi bir öneriniz veya yorumunuz var mı?",
+        "type": "textarea"
+      }
+    ],
+    "next": "İleri",
+    "previous": "Geri",
+    "submit": "Gönder"
+  },
+  "feedbackError": "Lütfen cevaplardan birini seçin veya fikrinizi yazıp ilerleyin",
+  "jobsPage": {
+    "maxResults": "Maksimum Sonuçlar",
+    "employer": "İşveren",
+    "placeOfWork": "Çalışma Yeri",
+    "occupation": "Meslek",
+    "publishDate": "Yayın Tarihi",
+    "readMore": "Daha Fazla Oku",
+    "loadMore": "Daha Fazla Yükle"
+  }
+}

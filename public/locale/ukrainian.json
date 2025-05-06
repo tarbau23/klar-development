@@ -1,0 +1,101 @@
+{
+  "index": "2",
+  "language": "Українська",
+  "2-page": {
+    "title": "Як я можу вам сьогодні допомогти?",
+    "upload": "Зробіть фото або завантажте документ.",
+    "ask": "Поставте запитання про Центр зайнятості, Kindergeld, Ausländerbehörde, Anmeldung, Arbeits тощо. Напишіть це в рядок пошуку.",
+    "search": "пошук",
+    "subTitle": "Зробіть фото вашого або домашнього завдання вашої дитини, завантажте його та отримайте пояснення вашою мовою для допомоги в виконанні завдання.",
+    "homework": "Домашнє завдання",
+    "contracts": "Офіційні листи та Контракти",
+    "information": "Інформація: Центр зайнятості, Ausländerbehörde, Kindergeld"
+  },
+  "3-page": {
+    "upload": "Завантажити знову",
+    "ask": "Запитайте що завгодно",
+    "translate": "Перекласти",
+    "explain": "Пояснити",
+    "summarize": "Резюмувати"
+  },
+  "4-page": {
+    "input": "Запитайте що завгодно",
+    "share": "Поділитися через"
+  },
+  "5-page": {
+    "agb": ". Сфера застосування 1.1 Ці Загальні умови (AGB) застосовуються до використання веб-додатку «[Назва додатку]» (далі – «Веб-додаток»), що надається [Компанія] (далі – «Постачальник»). 1.2 Постачальник залишає за собою право змінювати ці Загальні умови в будь-який час. Користувачі будуть своєчасно повідомлені про важливі зміни. Продовжуючи користуватися Веб-додатком після набрання чинності змін, користувачі погоджуються з новими умовами."
+  },
+  "prompts": {
+    "translate": "Перекладіть це українською та, якщо тексту для перекладу немає, відповідайте 0.",
+    "explain": "Пояснити англійською",
+    "summarize": "Резюмувати англійською"
+  },
+  "waitText": "⌛ Обробляється ваш запит... Будь ласка, зачекайте. ⌛",
+  "noText": "Зображення розмите, і розпізнавання тексту не вдалося. Завантажте більш чітке зображення.",
+  "alertMessageEmpty": "Будь ласка, напишіть у рядку пошуку.",
+  "prompt": "You are an expert assistant designed to help immigrants and refugees in Germany by analyzing uploaded images and documents, translating them into ukranian, and providing actionable guidance., Your Task:, Use OCR Optical Character Recognition to extract text from the uploaded image or document as accurately as possible. Ensure the maximum effort is made to retrieve all text even if the image quality is low. Attempt to improve image clarity algorithmically e.g. enhancing contrast or removing noise before text extraction., Translate the text from its original language into ukranian preserving the structure and layout of the original text as closely as possible., Analyze the content to provide a document summary actionable steps and critical information based on the documents type., If text extraction fails:, Respond with the number 0 if no text can be extracted after applying the above methods., Processing Instructions:, Document Summary Top Priority:, Identify the document type e.g. residency application employment contract medical report legal form etc., Summarize its purpose and key information in 2–3 sentences., Actionable Guidance:, Provide clear step-by-step instructions based on the documents content. Examples:, If it is a residency application explain how to complete it where to submit it and any deadlines., If it is an employment contract highlight key clauses like salary working hours and notice period., If it is a medical report summarize any diagnoses treatments or next steps., Include culturally and contextually relevant information such as nearby offices or services in Germany., Use bullet points to make the steps clear and easy to follow., Critical Information:, Highlight deadlines contact details or next steps mentioned in the document., Translation:, Provide a clear and accurate translation of the document into ukranian. If multiple languages are detected ensure all are translated., Tone and Clarity:, Use a supportive empathetic tone to make the user feel understood and empowered., Ensure your response is simple and accessible for users unfamiliar with complex terms., Response Structure:, Document Summary:, Summarize the document here, Actionable Steps:, Provide specific steps and advice here, Critical Information:, List important deadlines contacts or additional requirements here, Translated Text in ukranian:, Provide the full translation here, Guidelines for Low-Quality Images:, If the image is blurry apply advanced OCR techniques to enhance text extraction. Focus on recovering as much text as possible using tools or methods such as:, Adjusting brightness or contrast., Performing noise reduction., Cropping irrelevant parts of the image to focus on text-heavy areas., For partial text extraction process and translate whatever content is retrievable., Fallback Response:, If no text can be extracted even after all efforts return a single number 0. (Ensure that the response you gave should be all in ukranian language and no english text should be present in it)",
+  "feedbackForm": {
+    "title": "Форма зворотного зв'язку про додаток",
+    "steps": [
+      {
+        "question": "Як часто ви використовуєте цей додаток?",
+        "options": [
+          "Щодня",
+          "Кілька разів на тиждень",
+          "Час від часу",
+          "Вперше"
+        ]
+      },
+      {
+        "question": "Що вам найбільше допомагає? (Виберіть все, що підходить)",
+        "options": [
+          "Миттєвий переклад зображень",
+          "Економить час у порівнянні з набором тексту",
+          "Перекладає вивіски/документи",
+          "Допомагає у повсякденному спілкуванні",
+          "Інше"
+        ]
+      },
+      {
+        "question": "Що мотивує вас користуватися додатком щодня?",
+        "options": [
+          "Швидкий переклад у дорозі",
+          "Допомагає зрозуміти іноземний текст",
+          "Економить час на роботі чи в подорожах",
+          "Інше"
+        ]
+      },
+      {
+        "question": "Яка функція заохотила б вас використовувати додаток частіше?",
+        "options": [
+          "Переклад у реальному часі",
+          "Більше мовних опцій",
+          "Режим офлайн",
+          "Голосовий переклад",
+          "Інше"
+        ]
+      },
+      {
+        "question": "За шкалою від 1 до 10, наскільки ймовірно, що ви будете користуватися цим додатком щодня?",
+        "type": "slider"
+      },
+      {
+        "question": "Ваші пропозиції чи коментарі?",
+        "type": "textarea"
+      }
+    ],
+    "next": "Далі",
+    "previous": "Назад",
+    "submit": "Відправити"
+  },
+  "feedbackError": "Будь ласка, оберіть одну з відповідей або напишіть свою думку та натисніть далі",
+  "jobsPage": {
+    "maxResults": "Максимальна кількість результатів",
+    "employer": "Роботодавець",
+    "placeOfWork": "Місце роботи",
+    "occupation": "Професія",
+    "publishDate": "Дата публікації",
+    "readMore": "Читати більше",
+    "loadMore": "Завантажити більше"
+  }
+}

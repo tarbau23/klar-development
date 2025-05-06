@@ -1,0 +1,101 @@
+{
+  "index": "10",
+  "language": "Polski",
+  "2-page": {
+    "title": "Jak mogę ci dzisiaj pomóc?",
+    "upload": "Zrób zdjęcie lub prześlij dokument.",
+    "ask": "Zadawaj pytania o Centrum Pracy, Kindergeld, Ausländerbehörde, Anmeldung, Arbeits itp. Napisz to w pasku wyszukiwania.",
+    "search": "szukaj",
+    "subTitle": "Zrób zdjęcie swojej pracy domowej lub pracy domowej dziecka, prześlij je i otrzymaj wyjaśnienia w swoim języku, aby pomóc w jej ukończeniu.",
+    "homework": "Praca domowa",
+    "contracts": "Listy oficjalne i Kontrakty",
+    "information": "Informacja: Centrum Pracy, Ausländerbehörde, Kindergeld"
+  },
+  "3-page": {
+    "upload": "Prześlij ponownie",
+    "ask": "Zadaj dowolne pytanie",
+    "translate": "Przetłumacz",
+    "explain": "Wyjaśnij",
+    "summarize": "Podsumuj"
+  },
+  "4-page": {
+    "input": "Zadaj dowolne pytanie",
+    "share": "Udostępnij przez"
+  },
+  "5-page": {
+    "agb": ". Zakres zastosowania 1.1 Niniejsze Ogólne Warunki Korzystania (AGB) mają zastosowanie do korzystania z aplikacji internetowej „[Nazwa Aplikacji]” (zwanej dalej „Aplikacją Internetową”), udostępnianej przez [Firma] (zwaną dalej „Dostawcą”). 1.2 Dostawca zastrzega sobie prawo do zmiany niniejszych AGB w dowolnym momencie. Użytkownicy zostaną odpowiednio wcześnie poinformowani o istotnych zmianach. Kontynuując korzystanie z aplikacji internetowej po wejściu zmian w życie, użytkownicy akceptują nowe warunki."
+  },
+  "prompts": {
+    "translate": "Przetłumacz to na polski i jeśli nie ma tekstu do przetłumaczenia, odpowiedz 0.",
+    "explain": "Wyjaśnij po polsku",
+    "summarize": "Podsumuj po polsku"
+  },
+  "waitText": "⌛ Przetwarzanie Twojego żądania... Proszę czekać. ⌛",
+  "noText": "Obraz jest niewyraźny i nie udało się wyodrębnić tekstu. Proszę przesłać wyraźniejszy obraz.",
+  "alertMessageEmpty": "Proszę wpisać coś w pasku wyszukiwania.",
+  "prompt": "Działaj jako profesjonalny tłumacz wielu języków. Otrzymasz obraz zawierający tekst. Twoje zadania to: Dokładne wyodrębnienie całego tekstu z obrazu. Przetłumacz tekst z oryginalnego języka na polski, zachowując strukturę i układ oryginalnego tekstu tak dokładnie, jak to możliwe. Odpowiedz tylko przetłumaczonym tekstem w języku polskim. Jeśli tłumaczenie się nie powiedzie, najpierw przetłumacz tekst z oryginalnego języka na polski, a następnie przetłumacz tekst polski na polski. Upewnij się, że ostateczny wynik jest jasny, dokładny i zachowuje oryginalne formatowanie. Nie dodawaj żadnych dodatkowych komentarzy ani niezamówionych informacji. Jeśli nie udało się wyodrębnić tekstu, zwróć jedynie cyfrę '0' w języku english.",
+  "feedbackForm": {
+    "title": "Formularz opinii o aplikacji",
+    "steps": [
+      {
+        "question": "Jak często korzystasz z tej aplikacji?",
+        "options": [
+          "Codziennie",
+          "Kilka razy w tygodniu",
+          "Okazjonalnie",
+          "Pierwszy raz"
+        ]
+      },
+      {
+        "question": "Co uważasz za najbardziej przydatne? (Zaznacz wszystkie, które pasują)",
+        "options": [
+          "Natychmiastowe tłumaczenie obrazów",
+          "Oszczędza czas w porównaniu z pisaniem",
+          "Tłumaczy znaki/dokumenty",
+          "Pomaga w codziennej komunikacji",
+          "Inne"
+        ]
+      },
+      {
+        "question": "Co motywuje Cię do codziennego korzystania z aplikacji?",
+        "options": [
+          "Szybkie tłumaczenia w podróży",
+          "Pomaga zrozumieć obce teksty",
+          "Oszczędza czas w pracy lub podróży",
+          "Inne"
+        ]
+      },
+      {
+        "question": "Jaka funkcja zachęciłaby Cię do częstszego korzystania z aplikacji?",
+        "options": [
+          "Tłumaczenie w czasie rzeczywistym",
+          "Więcej opcji językowych",
+          "Tryb offline",
+          "Tłumaczenie głosowe",
+          "Inne"
+        ]
+      },
+      {
+        "question": "W skali od 1 do 10, jak prawdopodobne jest, że będziesz codziennie korzystać z tej aplikacji?",
+        "type": "slider"
+      },
+      {
+        "question": "Czy masz jakieś sugestie lub komentarze?",
+        "type": "textarea"
+      }
+    ],
+    "next": "Dalej",
+    "previous": "Wstecz",
+    "submit": "Zatwierdź"
+  },
+  "feedbackError": "Proszę wybrać jedną z odpowiedzi lub napisać swoją opinię i kliknąć dalej",
+  "jobsPage": {
+    "maxResults": "Maksymalna liczba wyników",
+    "employer": "Pracodawca",
+    "placeOfWork": "Miejsce pracy",
+    "occupation": "Zawód",
+    "publishDate": "Data publikacji",
+    "readMore": "Czytaj więcej",
+    "loadMore": "Załaduj więcej"
+  }
+}
